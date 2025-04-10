@@ -1,0 +1,108 @@
+﻿/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #838080;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background: #ff6f61; /* A warm color for the header */
+    color: rgb(247, 241, 241);
+    padding: 20px 0;
+    text-align: center;
+}
+
+    header h1 {
+        margin-bottom: 10px;
+    }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+        nav ul li a {
+            color: rgb(30, 29, 29);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(154, 44, 44, 0.1);
+}
+
+h2 {
+    color: #070707; /* Matching the header color */
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+/* Trainee profiles */
+.trainee {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+    .trainee h3 {
+        color: #ff6f61;
+    }
+
+    .trainee p {
+        margin-bottom: 10px;
+    }
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f41a06;
+    color: rgb(88, 228, 226);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
